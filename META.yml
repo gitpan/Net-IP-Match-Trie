@@ -1,0 +1,30 @@
+---
+abstract: 'Efficiently match IP addresses against IP ranges with Trie (prefix tree)'
+author:
+  - 'HIROSE Masaaki <hirose31 _at_ gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  FindBin: 0
+  Path::Class: 0
+  Test::More: 0
+  Test::Requires: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-IP-Match-Trie
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Filter::Util::Call: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/hirose31/p5-net-ip-match-trie.git
+version: 0.01_01
